@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: Kvazaar
+Description: HEVC encoding library.
+Version: @KVA_ABI_VERSION@
+Requires:
+Libs: -L${libdir} -lkvazaar
+Cflags: -I${includedir}

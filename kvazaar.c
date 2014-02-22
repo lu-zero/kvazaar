@@ -34,15 +34,15 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "global.h"
-#include "config.h"
-#include "encoder.h"
-#include "cabac.h"
-#include "picture.h"
-#include "transform.h"
+#include "libkvazaar/global.h"
+#include "libkvazaar/config.h"
+#include "libkvazaar/encoder.h"
+#include "libkvazaar/cabac.h"
+#include "libkvazaar/picture.h"
+#include "libkvazaar/transform.h"
 
 // Assembly optimization headers
-#include "x86/cpu.h"
+#include "libkvazaar/x86/cpu.h"
 
 /**
  * \brief Program main function.
